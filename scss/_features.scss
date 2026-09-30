@@ -1,0 +1,48 @@
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 0;
+
+    &-img-wrapper {
+        width: 500px;
+    }
+
+    &-content {
+        max-width: 420px;
+    }
+
+    &-title {
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 500;
+        color: #0b132a;
+        margin-bottom: 20px;
+    }
+
+    &-text {
+        font-size: 16px;
+        line-height: 30px;
+        color: #4f5665;
+        margin-bottom: 20px;
+    }
+
+    &-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &-item {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 14px;
+        color: #4f5665;
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
